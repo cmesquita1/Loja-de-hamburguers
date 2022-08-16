@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 125px;
+  margin-bottom: 30px;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 762px) {
+  .container {
+    margin-right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
